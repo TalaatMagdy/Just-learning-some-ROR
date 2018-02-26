@@ -1,0 +1,10 @@
+<h1>Files in the current directory</h1>
+
+<p>
+    The files in the current directory are: 
+</p>
+<ul>    
+    <% @files.each do |file| %>
+    <li> file name is: <br><%= file; %></li>
+    <% end %>
+</ul>
